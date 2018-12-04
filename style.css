@@ -38,16 +38,22 @@ h3 {
 h1,
 h3 {
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .select {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
   overflow: hidden;
   text-align: center;
   margin: 0 auto;
+
   max-width: 1000px;
 }
 
